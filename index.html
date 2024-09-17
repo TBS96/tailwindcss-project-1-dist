@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TailwindCSS Project: 1</title>
-
-  <link rel="stylesheet" crossorigin href="assets/index-BdpDBnOE.css">
+    <title>TailwindCSS Project: 1</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-CUveHNgf.css">
 </head>
 <body class="bg-[#2B2D33]">
     
     <!-- navbar -->
-    <nav class="bg-[#2B2D33] shadow-2xl shadow-slate-600">
+    <nav class="bg-[#2B2D33] shadow-2xl shadow-slate-600 sticky top-0">
         <div class="container mx-auto">
             <div class="sm:flex justify-between items-center py-5">
-                <div class="text-center mb-3">
+                <div class="text-center mb-3 animate-bounce hover:animate-none">
                     <a href="#" class="text-white text-xl sm:text-3xl font-bold"><span class="text-[#F65023]">T</span>ailwind C<span class="text-[#47bcf5]">SS</span> </a>
                 </div>
 
@@ -27,6 +26,28 @@
             </div>
         </div>
     </nav>
+
+
+    <!-- hero/header secton -->
+    <header>
+        <div class="container mx-auto border border-indigo-600 border-t-0 sm:flex justify-around items-center text-center text-white h-[80vh] px-10 pt-10">
+            <div>
+                <h1 class="text-2xl sm:text-5xl mb-5 sm:mb-16">Smart Coders: Learn <br> Programming</h1>
+
+                <!-- <button class="bg-indigo-900 px-7 py-3 rounded-full text-xl hover:shadow-2xl hover:bg-indigo-500"> -->
+                <button class="text-xl bg-indigo-900 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 m-4 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl">
+                    Join My Classes
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-orange-500 ml-2 animate-ping">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                    </button>
+            </div>
+
+            <div>
+                <img class="animate-pulse" src="/assets/hero-img-DFUkGwcj.png" alt="hero-img">
+            </div>
+        </div>
+    </header>
 
 </body>
 </html>
