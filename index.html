@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailwindCSS Project: 1</title>
 
-  <link rel="stylesheet" crossorigin href="assets/index-B6j_31Jx.css">
+  <link rel="stylesheet" crossorigin href="assets/index-B45WLHAA.css">
 </head>
 <body class="bg-[#2B2D33]">
     
     <!-- navbar -->
-    <nav class="bg-[#2B2D33] shadow-2xl shadow-slate-600 sticky top-0 z-10">
+    <nav class="bg-[#2B2D33] rounded-b-lg shadow-2xl shadow-slate-600 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 sticky top-0 z-10">
         <div class="container mx-auto">
             <div class="sm:flex justify-between items-center py-5">
                 <div class="text-center mb-3 animate-bounce hover:animate-none">
@@ -33,12 +33,12 @@
     <header>
         <div class="container mx-auto border border-indigo-600 border-t-0 sm:flex justify-around items-center text-center text-white h-[80vh] px-10 pt-10">
             <div>
-                <h1 class="text-2xl sm:text-5xl mb-5 sm:mb-16">Smart Coders: Learn <br> Programming</h1>
+                <h1 class="animate-typing hover:animate-none overflow-hidden whitespace-nowrap border-r-2 border-r-white pr-5 text-2xl sm:text-5xl mb-5 sm:mb-16">Smart Coders: Learn Coding</h1>
 
                 <!-- <button class="bg-indigo-900 px-7 py-3 rounded-full text-xl hover:shadow-2xl hover:bg-indigo-500"> -->
-                <button class="text-xl bg-indigo-900 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 m-4 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl">
+                <button class="text-xl bg-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent hover:text-[#F65023] px-8 py-2 m-4 rounded-full transition-all ease-in-out duration-700 drop-shadow-[0_35px_35px_#F65023] hover:shadow-2xl hover:shadow-[#F65023]">
                     Join My Classes
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-orange-500 ml-2 animate-ping">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block ml-2 animate-ping">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
                     </button>
@@ -59,36 +59,107 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                <!-- <div class="bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="frontEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">Front End Development</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
+
+                <!-- optional div -->
+                <!-- <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out blur-3xl"></div>
+                    
+                    <img class="w-1/2 mx-auto relative z-10" src="images/frontEnd.png" alt="frontEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5 relative z-10">Front End Development</h4>
+                    <p class="text-white relative z-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
+                
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
                     <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">Front End Development</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
-                    <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="backEnd">
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
+                    <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">Back End Development</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
-                    <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="javascript">
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
+                    <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">JavaScript Complete Course</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
                     <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">Next.JS Complete Course</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
                     <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">React.JS Complete Course</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
-                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+
+                <div class="relative bg-gray-800 shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0 overflow-hidden group">
+                    <!-- Shining Glass Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform scale-150 group-hover:scale-100 transition-all ease-in-out duration-700 pointer-events-none"></div>
+                
+                    <!-- Content -->
                     <img class="w-1/2 mx-auto" src="assets/frontEnd-yVyyAt4W.png" alt="frontEnd">
                     <h4 class="text-white text-lg underline underline-offset-8 my-5">MongoDB for Your Database</h4>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
                 </div>
+                <!-- <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="backEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">Back End Development</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
+                <!-- <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="javascript">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">JavaScript Complete Course</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
+                <!-- <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="frontEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">Next.JS Complete Course</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
+                <!-- <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="frontEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">React.JS Complete Course</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div>
+                <div class="bg-gray-800 hover:bg-transparent shadow-2xl p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer transition-all ease-in-out duration-700 mx-2 sm:mx-0">
+                    <img class="w-1/2 mx-auto" src="images/frontEnd.png" alt="frontEnd">
+                    <h4 class="text-white text-lg underline underline-offset-8 my-5">MongoDB for Your Database</h4>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, consectetur.</p>
+                </div> -->
 
             </div>
         </section>
@@ -111,7 +182,7 @@
                         <img src="data:image/png;base64,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" alt="c2">
                         <h3>Tencent</h3>
                     </div>
-                    <div class="rounded p-2 transition-all ease-out shadow-2xl hover:bg-[#00000048] hover:shadow-black grid place-content-center cursor-pointer hover:scale-105">
+                    <div class="rounded p-2 transition-all ease-out shadow-2xl hover:bg-[#969696b0] hover:shadow-[#969696b0] grid place-content-center cursor-pointer hover:scale-105">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAeCAYAAAColNlFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOuSURBVHgB7VmLcdswDH3NZQBvEG4QbxB2gnqDMBMkncDqBE4nsDKBkwnkTOB0AqsTOJ3AFSriBFMkI1l0Lpfq3eFk8QfwEQIgGRgGVcmikl0lGiOS4raSvZApRiSDS+4WI5JB4ZBckjuMSIZ7jN57UhRoyN2g9ugRAZzjOKwreUbtza8YEcQXT9ukklkll/Y3EUhkPgbGXaHx4pdKnlAfwGeBrmSOem/fMRBUHVBNu/cIxdplJQZN7bsPyLGhg9YtrEzwMWBQ76nAQMwRJuwYoQNR6A6Fj1mZGAwg+EwskiEtyANVj/HaXjkUfcMnAnlbSu+l8KHQD4Wdq9GEn48QJgwGerBB+lKLkkHZY7xCTWyJOkG+2HYTGa+cNm3Ha8T1yHmcqEmGvOpPhW7ldq6QPvb2hbFzl/b+DnGvkd5O5Ow8NrgxXOHQvgW65Q0TscWnm2QuB22QluB79AfboO39RKznCxO57WOSaPN3Vgr4EyWvuUVTBZGtBnX+2cJPsoGf4FscHqa2Y7fCtn/YJxaDflDwez4T5asmcqEv8/Tz6zyRKA9I5oipxw4mZynaDdoEK7uGz+MnEDnkDOnRNzHN7HXttD/Za6yaKOEnmNperS3G05+jifNyrRthU2wf3L9GO9eQ3gf725wh/auuQj9c2+uD057bq0Z4s0+B9lfRd+npfwjMW6M5GIUw+NB/Wftc2bPuc7FgKhBhXV8SFJpHtYiMo/UyT3vMOUqhw8UuMo/5ILteAmOUvS4QhyKCn5G2TCPjiJAuyY7DQwn/9wuF2iOucDz+4Dh0ebJ/IF6OlkQwndI10mJhFT++MY71kqG5p1+hTiS6kotKfjv9sSePQ0OJflAd5jH5xF10jxSDc5wGVF/PI/1TNOEhZGSJxrNvPP2XgXlKrL329N8E5hmhNxQeCBzfb9ERsnZMLTqgk0upt7w8Q7tMyhEo6i345WnrtMsyTTl9Ck2Zlol2g3CZFtLfwgynIXcb0cmbMYhDoX1Yub3fCD0ZDj+j+kjcO/NWdt5SzNs4cwzaBMt21r8QNhSe8ck/+MTIU1YfSZcKZoXD198cjacZtG0v4E/c3E+hxf1vcQd/pTKz66/g30eB9r5praU7WOP9vHcocrQfZY7psQNj2y7sPY3VGF5Fcd3MEoR7qkNE4XTI0Sa4C1yCTw73VTlD/7LGh7fqw/8GLsFU331FmBzqXyNewvxE+n9HPh0UmseQA7Z2xvCHFJnJu74iD8X9kfo4sb5biPgLSUsRr++N1AAAAAAASUVORK5CYII=" alt="c3">
                         <h3>Apple</h3>
                     </div>
@@ -154,9 +225,9 @@
 
                 <textarea class="block mx-auto w-5/6 sm:w-1/2 h-52 p-3 border-2 border-orange-800 rounded placeholder:italic placeholder:text-orange-800 focus:bg-zinc-900 focus:text-orange-500 focus:ring focus:shadow-2xl focus:shadow-slate-300 transition-all ease-in-out" placeholder="Ask a Question..."></textarea>
 
-                <button class="block mx-auto text-xl bg-indigo-900 text-orange-500 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl focus:translate-x-5">
+                <button class="block mx-auto text-xl bg-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent text-white hover:text-[#F65023] px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-[0_5px_5px_#F65023] hover:shadow-2xl hover:shadow-[#F65023] focus:translate-x-5">
                     Send Now
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-orange-500 ml-2 animate-spin">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block ml-2 animate-pulse">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                     </svg>                      
                 </button>
@@ -184,7 +255,7 @@
                         <li>No hidden charges</li>
                     </ul>
 
-                    <button class="block mx-auto text-xl bg-indigo-900 text-orange-500 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl focus:translate-x-5">
+                    <button class="block mx-auto text-xl bg-[#F65023] text-white hover:text-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-[0_35px_35px_#F65023] hover:shadow-2xl hover:shadow-[#F65023] focus:translate-x-5">
                         Purchase
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-green-500 fill-green-500 ml-2 animate-bounce">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
@@ -192,7 +263,7 @@
                     </button>
                 </div>
 
-                <div class="border rounded p-10 bg-lime-300 hover:bg-lime-400 text-zinc-800 transition ease-in cursor-pointer sm:scale-105 hover:scale-110">
+                <div class="border rounded p-10 bg-[#312E81] hover:bg-[#312c7e44] text-slate-100 transition ease-in cursor-pointer sm:scale-105 hover:scale-110">
                     <h5>Pro Plan (Recommended)</h5>
                     <h2>$<span class="text-xl sm:text-2xl md:text-5xl font-bold">39.00</span>/month</h2>
 
@@ -208,7 +279,7 @@
                         <li>No hidden charges</li>
                     </ul>
 
-                    <button class="block mx-auto text-xl bg-indigo-900 text-orange-500 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl focus:translate-x-5">
+                    <button class="block mx-auto text-xl bg-[#F65023] text-white hover:text-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-[0_35px_35px_#F65023] hover:shadow-2xl hover:shadow-[#F65023] focus:translate-x-5">
                         Purchase
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-green-500 fill-green-500 ml-2 animate-bounce">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
@@ -216,7 +287,7 @@
                     </button>
                 </div>
 
-                <div class="border rounded p-10 hover:bg-yellow-300 hover:text-slate-900 transition ease-in cursor-pointer hover:scale-105">
+                <div class="border rounded p-10 hover:bg-[#6276e6] transition ease-in cursor-pointer hover:scale-105">
                     <h5>Premium Plan</h5>
                     <h2>$<span class="text-xl sm:text-2xl md:text-5xl font-bold">69.00</span>/month</h2>
 
@@ -232,7 +303,7 @@
                         <li>No hidden charges</li>
                     </ul>
 
-                    <button class="block mx-auto text-xl bg-indigo-900 text-orange-500 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-2xl focus:translate-x-5">
+                    <button class="block mx-auto text-xl bg-[#F65023] text-white hover:text-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent px-8 py-2 mt-5 rounded-full transition-all ease-in-out duration-700 drop-shadow-[0_35px_35px_#F65023] hover:shadow-2xl hover:shadow-[#F65023] focus:translate-x-5">
                         Purchase
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-green-500 fill-green-500 ml-2 animate-bounce">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
@@ -244,7 +315,8 @@
         </section>
         
         <!-- newsletter section -->
-        <section class="bg-lime-950 my-10 sm:my-16 md:my-20 lg:my-32 py-10 sm:py-16 md:py-20 bg-no-repeat bg-left" style="background-image: url('assets/subscribe-bg-C9ZiEzkw.png');">
+        <section class="my-10 sm:my-16 md:my-20 lg:my-32 py-10 sm:py-16 md:py-20 bg-no-repeat bg-top sm:bg-left rounded-[10px] backdrop-blur-[21px] mix-blend-hard-light hover:mix-blend-color-dodge" style="background-image: url('assets/subscribe-bg-C9ZiEzkw.png'), radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(15, 33, 53, 0.4) 0%, rgba(255, 255, 255, 0) 100%);">
+            <!-- radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(15, 33, 53, 0.4) 0%, rgba(255, 255, 255, 0) 100%) -->
             <div class="sm:flex justify-center items-center text-white gap-10 sm:gap-16 md:gap-20 lg:gap-32">
 
                 <div class="text-center mb-10 sm:mb-0 sm:border-r-2 sm:pr-28">
@@ -253,9 +325,10 @@
                 </div>
 
                 <div class="flex justify-center items-center gap-1">
-                    <input class="h-10 border-none px-2 text-orange-500 focus:ring-2" type="email" placeholder="E-mail">
+                    <input class="h-10 border-2 border-orange-800 rounded-2xl px-2 placeholder:italic placeholder:text-orange-800 text-orange-500 focus:bg-zinc-900 focus:text-orange-500 focus:ring focus:shadow-2xl focus:shadow-slate-300 transition-all ease-in-out" type="email" placeholder="E-mail">
+                    <!-- block mx-auto w-5/6 sm:w-1/2 h-12 border-2 border-orange-800 rounded placeholder:italic placeholder:text-orange-800 px-5 mb-10 focus:bg-zinc-900 focus:text-orange-500 focus:ring focus:shadow-2xl focus:shadow-slate-300 transition-all ease-in-out -->
                     
-                    <button class=" bg-red-900 text-yellow-400 hover:text-slate-400 hover:ring-2 focus:ring-4 hover:ring-indigo-700 hover:bg-transparent px-8 py-2 rounded transition-all ease-in-out duration-700 drop-shadow-2xl focus:translate-x-5">
+                    <button class="bg-[#F65023] text-white hover:text-[#F65023] hover:ring-2 focus:ring-4 hover:ring-[#F65023] hover:bg-transparent px-8 py-2 rounded-2xl transition-all ease-in-out duration-700 drop-shadow-[-20px_5px_35px_#F65023] hover:shadow-2xl hover:shadow-[#F65023] focus:translate-x-5">
                         Subscribe
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block text-yellow-500 fill-yellow-500 ml-2 animate-pulse">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
@@ -275,37 +348,37 @@
                 <div>
                     <h2 class="text-xl sm:text-2xl mb-3 sm:mb-5">My Account</h2>
                     <ul class="leading-10 mb-5 sm:mb-0">
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Creator Dashboard</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Wallet</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Create Item</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">My Account</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Creator Dashboard</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Wallet</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Create Item</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">My Account</a></li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="text-xl sm:text-2xl mb-3 sm:mb-5">Web Links</h2>
                     <ul class="leading-10 mb-5 sm:mb-0">
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Collections</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Item Details</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Rankings</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">User Profile</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Collections</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Item Details</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Rankings</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">User Profile</a></li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="text-xl sm:text-2xl mb-3 sm:mb-5">Community</h2>
                     <ul class="leading-10 mb-5 sm:mb-0">
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Category</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Author</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Details</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Category</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Author</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Blog Details</a></li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="text-xl sm:text-2xl mb-3 sm:mb-5">Contact</h2>
                     <ul class="leading-10 mb-5 sm:mb-0">
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Kolkata, P.O. - ISI | PIN: 700001</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Prantik Ghosh</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="mailto:9tbs6@proton.me">9tbs6@proton.me</a></li>
-                        <li class="hover:opacity-70 hover:bg-slate-400 rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Phone: +91-8910325359</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-medium hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Kolkata, P.O. - ISI | PIN: 700001</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Prantik Ghosh</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="mailto:9tbs6@proton.me">9tbs6@proton.me</a></li>
+                        <li class="hover:bg-slate-500 hover:text-[#0f2135] hover:font-bold hover:animate-pulse rounded hover:translate-x-1 transition-all hover:shadow-2xl hover:shadow-[#83acdb98]"><a href="#">Phone: +91-8910325359</a></li>
                     </ul>
                 </div>
             </div>
